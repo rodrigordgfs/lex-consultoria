@@ -2,8 +2,6 @@ import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import { Cormorant_Garamond, Luxurious_Script } from "next/font/google";
-import { Suspense } from "react";
-import Loading from "./loading";
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
@@ -18,7 +16,6 @@ const luxuriousScript = Luxurious_Script({
 export default function Home() {
   return (
     <main>
-      <Suspense fallback={<Loading />}>
         <div className="w-full max-w-full bg-hero bg-no-repeat bg-cover">
           <div className="flex flex-col max-w-6xl w-full mx-auto px-4">
             <Header />
@@ -102,7 +99,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </Suspense>
     </main>
   );
 }

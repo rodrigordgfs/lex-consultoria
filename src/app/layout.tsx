@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import Loading from "./loading";
+import { Suspense } from "react";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -16,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={outfit.className}>{children}</body>
+      <Suspense fallback={<Loading />}>
+        <body className={outfit.className}>{children}</body>
+      </Suspense>
     </html>
   );
 }
