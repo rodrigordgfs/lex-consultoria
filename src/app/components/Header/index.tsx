@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="flex flex-col">
-      <div className="flex flex-row items-center justify-between py-10">
+      <div className="flex flex-row items-center justify-center md:justify-between py-10">
         <Image
           src="/logo.svg"
           alt="Logo Lex Consultoria"
@@ -11,13 +11,13 @@ export default function Header() {
           height={100}
         />
         <div
-          className="text-white text-2xl py-3 px-6 cursor-pointer"
+          className="text-white text-2xl py-3 px-6 cursor-pointer hidden md:block"
           style={{ backgroundColor: "rgba(156, 163, 175, 0.4)" }}
         >
           Marque uma consulta
         </div>
       </div>
-      <div className="flex flex-row items-center py-5 justify-between border-t-[1px] border-b-[1px] border-zinc-400">
+      <div className="flex flex-row items-center py-5 justify-center md:justify-between border-t-[1px] border-b-[1px] border-zinc-400">
         <nav className="flex flex-row items-center gap-5 text-white text-xl">
           <a href="#" className="hover:text-[#CCAA60] transition-all">
             Início
@@ -32,7 +32,7 @@ export default function Header() {
             Contact Us
           </a>
         </nav>
-        <div className="flex flex-row items-center gap-5">
+        <div className="flex-row items-center gap-5 hidden md:flex">
           <div className="flex flex-row items-center gap-2">
             <div>
               <div className="rounded-full border-[2px] border-[#CCAA60] p-4">
