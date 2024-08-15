@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import { Cormorant_Garamond, Luxurious_Script } from "next/font/google";
+import About from "./components/About";
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
@@ -21,9 +22,10 @@ export default function Home() {
             <Header />
             <Hero />
           </div>
+          <About />
         </div>
 
-        <div className="w-fill max-w-full bg-[#1F2732] py-24">
+        {/* <div className="w-fill max-w-full bg-[#1F2732] py-24">
           <div className="flex flex-col max-w-6xl w-full mx-auto px-4 gap-10">
             <div className="flex flex-row gap-10">
               <Image src="/image-1.png" alt="" width={460} height={290} />
@@ -98,7 +100,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
     </main>
   );
 }

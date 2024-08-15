@@ -25,7 +25,7 @@ export default function Hero() {
           legais personalizadas para proteger seus interesses.
         </p>
         <div>
-          <button className="text-[#1F2732] bg-[#CCAA60] px-14 py-5 font-medium">
+          <button className="text-[#1F2732] bg-[#CCAA60] hover:bg-white transition-all px-14 py-5 font-medium">
             Entre em contato
           </button>
         </div>

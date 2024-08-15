@@ -22,7 +22,7 @@ export default function Header() {
           <a href="#" className="hover:text-[#CCAA60] transition-all">
             Início
           </a>
-          <a href="#" className="hover:text-[#CCAA60] transition-all">
+          <a href="#about" className="hover:text-[#CCAA60] transition-all">
             Sobre Nós
           </a>
           <a href="#" className="hover:text-[#CCAA60] transition-all">
