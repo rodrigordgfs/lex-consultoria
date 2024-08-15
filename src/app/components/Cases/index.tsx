@@ -54,11 +54,13 @@ export default function Cases() {
     >
       <div className="flex flex-col max-w-6xl items-center w-full mx-auto px-4 gap-10">
         <div className="flex-1 flex flex-col items-center gap-5">
-          <h2 className={`${cormorantGaramond.className} text-5xl text-white`}>
+          <h2
+            className={`${cormorantGaramond.className} text-5xl text-white text-center`}
+          >
             Conheça Nossos Casos
           </h2>
           <Image
-            src="/icons/separator.svg"
+            src="/icons/separator-center.svg"
             alt="Separator Icon"
             width={95}
             height={40}
@@ -72,7 +74,7 @@ export default function Cases() {
             don&apos;t look even slightly believable.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
           {CASES.map((item, index) => {
             return <CaseCard key={index} {...item} />;
           })}

@@ -12,19 +12,21 @@ export default function Contact() {
       id="contact"
       className="w-fill max-w-full bg-[#1F2732] py-24 flex flex-col gap-24"
     >
-      <div className="flex flex-row max-w-6xl items-center w-full mx-auto px-4 gap-5">
+      <div className="flex flex-col md:flex-row max-w-6xl items-center w-full mx-auto px-4 gap-5">
         <div className="flex flex-col flex-1 gap-5">
-          <h2 className={`${cormorantGaramond.className} text-3xl text-white`}>
+          <h2
+            className={`${cormorantGaramond.className} text-3xl text-white text-center md:text-start`}
+          >
             Our Expert professional law team is always ready to serve you the
             best solution!
           </h2>
-          <p className="text-xl text-[#D7D7D7]">
+          <p className="text-xl text-[#D7D7D7] text-center md:text-start">
             There are of Lorem Ipsum available, but the majority have su
             alteration in some form, by injected oir which don&apos;t look even
             slightly believable.
           </p>
           <div>
-            <button className="text-[#1F2732] bg-[#CCAA60] hover:bg-white transition-all px-14 py-5 font-medium">
+            <button className="text-[#1F2732] bg-[#CCAA60] hover:bg-white transition-all px-14 py-5 font-medium w-full md:w-auto">
               Entre em contato
             </button>
           </div>
@@ -32,12 +34,12 @@ export default function Contact() {
         <div className="flex flex-1 bg-white p-10">
           <div className="flex flex-col flex-1 border-8 border-zinc-300 p-10">
             <h2
-              className={`${cormorantGaramond.className} text-3xl text-[#161D27]`}
+              className={`${cormorantGaramond.className} text-3xl text-[#161D27] text-center md:text-start`}
             >
               Our Expert professional law team is always ready to serve you the
               best solution!
             </h2>
-            <p className="text-xl text-[#909090] mt-2 mb-4">
+            <p className="text-xl text-[#909090] mt-2 mb-4 text-center md:text-start">
               There are of Lorem Ipsum available, but the majority have su
               alteration in some form, by injected oir which don&apos;t look
               even slightly believable.
