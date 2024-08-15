@@ -9,7 +9,7 @@ const cormorantGaramond = Cormorant_Garamond({
 export default function Contact() {
   return (
     <div
-      id="about"
+      id="contact"
       className="w-fill max-w-full bg-[#1F2732] py-24 flex flex-col gap-24"
     >
       <div className="flex flex-row max-w-6xl items-center w-full mx-auto px-4 gap-5">

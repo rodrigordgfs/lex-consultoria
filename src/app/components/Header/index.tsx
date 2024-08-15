@@ -28,7 +28,7 @@ export default function Header() {
           <a href="#cases" className="hover:text-[#CCAA60] transition-all">
             Casos
           </a>
-          <a href="#" className="hover:text-[#CCAA60] transition-all">
+          <a href="#contact" className="hover:text-[#CCAA60] transition-all">
             Contact Us
           </a>
         </nav>
