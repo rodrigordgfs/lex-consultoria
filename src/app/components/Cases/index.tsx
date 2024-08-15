@@ -9,39 +9,39 @@ const cormorantGaramond = Cormorant_Garamond({
 
 const CASES = [
   {
-    title: "Business Law",
+    title: "Direito Empresarial",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Consultoria jurídica completa para empresas, garantindo conformidade e soluções eficazes.",
     icon: "/icons/case-1.svg",
   },
   {
-    title: "Construction Law",
+    title: "Direito da Construção",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Resolução de disputas contratuais e conformidade regulatória no setor da construção civil.",
     icon: "/icons/case-2.svg",
   },
   {
-    title: "Car Accident",
+    title: "Acidente de Trânsito",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Assistência jurídica para vítimas de acidentes, buscando compensações justas e proteção de direitos.",
     icon: "/icons/case-3.svg",
   },
   {
-    title: "Wrongful Death",
+    title: "Homicídio Culposo",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Apoio legal para famílias em casos de homicídio culposo, garantindo justiça e verdade.",
     icon: "/icons/case-4.svg",
   },
   {
-    title: "Criminal Law",
+    title: "Direito Penal",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Defesa em processos criminais, assegurando julgamento justo e busca da melhor resolução.",
     icon: "/icons/case-5.svg",
   },
   {
-    title: "Family Law",
+    title: "Direito de Família",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but majority going to use a passage.",
+      "Apoio em questões familiares, como divórcio e guarda, com sensibilidade e respeito.",
     icon: "/icons/case-6.svg",
   },
 ];
@@ -66,12 +66,12 @@ export default function Cases() {
             height={40}
           />
           <p className="text-xl text-[#D7D7D7] max-w-[800px] w-full text-center">
-            There are{" "}
-            <span className="text-[#D1B06B]">many variations of passages</span>{" "}
-            of Lorem Ipsum available, but the majority have su alteration in
-            some form, by injected humour, oir{" "}
-            <span className="text-[#D1B06B]">randomised workds</span> which
-            don&apos;t look even slightly believable.
+            Na <span className="text-[#D1B06B]">Lex Consultoria</span>, temos
+            orgulho de compartilhar histórias de sucesso que refletem nosso
+            compromisso com a excelência e a dedicação aos{" "}
+            <span className="text-[#D1B06B]">nossos clientes</span> . Nossos
+            casos representam uma ampla gama de desafios legais que superamos
+            com estratégias inovadoras e personalizadas.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">

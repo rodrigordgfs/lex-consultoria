@@ -19,17 +19,29 @@ export default function Header() {
       </div>
       <div className="flex flex-row items-center py-5 justify-center md:justify-between border-t-[1px] border-b-[1px] border-zinc-400">
         <nav className="flex flex-row items-center gap-5 text-white text-xl">
-          <a href="#" className="hover:text-[#CCAA60] transition-all">
+          <a
+            href="#"
+            className="hover:text-[#CCAA60] transition-all text-center"
+          >
             Início
           </a>
-          <a href="#about" className="hover:text-[#CCAA60] transition-all">
-            Sobre Nós
+          <a
+            href="#about"
+            className="hover:text-[#CCAA60] transition-all text-center"
+          >
+            Nossa História
           </a>
-          <a href="#cases" className="hover:text-[#CCAA60] transition-all">
+          <a
+            href="#cases"
+            className="hover:text-[#CCAA60] transition-all text-center"
+          >
             Casos
           </a>
-          <a href="#contact" className="hover:text-[#CCAA60] transition-all">
-            Contact Us
+          <a
+            href="#contact"
+            className="hover:text-[#CCAA60] transition-all text-center"
+          >
+            Contato
           </a>
         </nav>
         <div className="flex-row items-center gap-5 hidden md:flex">

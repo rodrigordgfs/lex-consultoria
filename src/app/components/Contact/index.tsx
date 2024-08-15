@@ -17,13 +17,13 @@ export default function Contact() {
           <h2
             className={`${cormorantGaramond.className} text-3xl text-white text-center md:text-start`}
           >
-            Our Expert professional law team is always ready to serve you the
-            best solution!
+            Nossa equipe de advogados especializados está sempre pronta para
+            oferecer a melhor solução!
           </h2>
           <p className="text-xl text-[#D7D7D7] text-center md:text-start">
-            There are of Lorem Ipsum available, but the majority have su
-            alteration in some form, by injected oir which don&apos;t look even
-            slightly believable.
+            Com experiência em diversas áreas do direito, oferecemos assessoria
+            jurídica personalizada e estratégica para atender às suas
+            necessidades legais.
           </p>
           <div>
             <button className="text-[#1F2732] bg-[#CCAA60] hover:bg-white transition-all px-14 py-5 font-medium w-full md:w-auto">
@@ -36,13 +36,11 @@ export default function Contact() {
             <h2
               className={`${cormorantGaramond.className} text-3xl text-[#161D27] text-center md:text-start`}
             >
-              Our Expert professional law team is always ready to serve you the
-              best solution!
+              Prontos para proteger seus direitos e garantir seu sucesso!
             </h2>
             <p className="text-xl text-[#909090] mt-2 mb-4 text-center md:text-start">
-              There are of Lorem Ipsum available, but the majority have su
-              alteration in some form, by injected oir which don&apos;t look
-              even slightly believable.
+              Entre em contato conosco para receber consultoria jurídica de
+              excelência, com soluções eficientes e inovadoras.
             </p>
             <div className="flex flex-row items-center gap-2">
               <div>
